@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class SumFromZeroTill {
     public static int sumFromZeroTill(int max){
-        return 0;
+        int sum = 0;
+        for (int i = 0; i <= max; i++){
+            sum += i;
+        }
+        return sum;
     }
 
     public static void main(String[] args) {

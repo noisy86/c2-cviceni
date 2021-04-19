@@ -9,8 +9,8 @@ public class SumAllNumbers {
 
         boolean turn = true;
         while (turn == true){
-            int num = scanner.nextInt();
             System.out.println("Enter a number:");
+            int num = scanner.nextInt();
             sum += num;
             System.out.println(sum);
         }
